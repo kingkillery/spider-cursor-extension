@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Neon Spider Cursor",
+  "version": "1.0.0",
+  "description": "A local-only neon spider cursor and link glitch overlay for Chrome and Edge.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {"default_title": "Toggle Neon Spider"},
+  "background": {"service_worker": "background.js"}
+}

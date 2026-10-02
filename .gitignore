@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.zip
+brag-output/
+test-results.json
+screenshot.png

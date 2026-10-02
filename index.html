@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Neon Spider — playground</title>
+<style>body{margin:0;background:#080b12;color:#c3cad6;font:16px/1.8 system-ui}main{max-width:900px;margin:auto;padding:70px 32px}small{color:#47eaff;letter-spacing:.2em}h1{font-size:clamp(40px,7vw,78px);line-height:1.1;color:#effaff;margin:24px 0}h2{margin-top:50px;color:#eef5ff}a{color:#8c9fff;text-decoration:none}li{margin:14px 0}p{max-width:650px}code{color:#51f9c4}section{border-top:1px solid #252c3c;margin-top:35px;padding-top:20px}</style></head>
+<body><main><small>CURSOR EXPERIMENT / 001</small><h1>The web comes alive.</h1><p>Move your mouse through the references. A neon spider follows, anchoring its legs to links and pulling their text into colorful glitches. Click for a pulse.</p><p><code>Alt + Shift + S</code> pauses or resumes. Use the lower-right controls to adjust intensity or remove the overlay. Links remain clickable.</p>
+<h2>Spider field notes</h2><ul>
+<li><a href="https://en.wikipedia.org/wiki/Spider">Spider — anatomy, ecology and behavior</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spider_web">Spider webs: silk, geometry and capture</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jumping_spider">Jumping spiders and visual navigation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Arachnophobia">A common phobia: arachnophobia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spider_silk">Silk proteins and extraordinary tensile strength</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Orb-weaver_spider">Orb-weaver spiders — a living network</a></li></ul>
+<section><h2>General and cited references</h2><ol id="references"></ol></section><section><h2>Privacy by design</h2><p>Nothing is transmitted. No tracking, no remote scripts, and no changes to the page's link content. The browser extension runs only when you click its icon.</p></section></main>
+<script>const names=['The world of spiders','Biology of spiders','The book of the spider','Silk proteins and web geometry','Spider mythology across cultures','Neural networks in miniature'];for(let i=0;i<45;i++){const li=document.createElement('li');const a=document.createElement('a');a.href='https://en.wikipedia.org/wiki/Spider#References';a.textContent=names[i%names.length]+' — reference '+(i+1);li.append('Author '+(i+1)+'. (2024). ',a,'. Journal of Arachnology. DOI: 10.1000/'+(8100+i));document.querySelector('#references').append(li);}</script><script src="spider.js"></script></body></html>
