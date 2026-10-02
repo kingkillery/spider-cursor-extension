@@ -2,7 +2,9 @@
 
 A tiny Chrome/Edge extension that turns your pointer into a neon spider. Its eight legs anchor to nearby links while a colorful glitch overlay follows the interaction — without rewriting the page.
 
-[![Neon Spider Cursor demo](media/brag.jpg)](media/brag.mp4)
+## Demo
+
+https://github.com/user-attachments/assets/ca13965e-79f7-4b08-b9cd-f8f9d0ff822a
 
 > **Your links just grew legs.**
 
@@ -50,9 +52,9 @@ python test_spider.py
 
 The integration test uses Python Playwright with Microsoft Edge. It covers drawing, link preservation, pointer hit-testing, pause/resume, keyboard control, resizing, reinjection, cleanup, reduced-motion behavior, and browser runtime errors.
 
-## Demo video
+## Demo files
 
-The curated launch clip is in [`media/brag.mp4`](media/brag.mp4). Its poster is [`media/brag.jpg`](media/brag.jpg).
+The GitHub-native player above uses a media attachment so it renders inline. The committed source files remain available as [`media/brag.mp4`](media/brag.mp4) and [`media/brag.jpg`](media/brag.jpg).
 
 ## License
 
