@@ -4,7 +4,7 @@ A tiny Chrome/Edge extension that turns your pointer into a neon spider. Its eig
 
 ## Demo
 
-https://github.com/user-attachments/assets/ca13965e-79f7-4b08-b9cd-f8f9d0ff822a
+https://github.com/user-attachments/assets/80e9d404-7ce7-4e9e-bac1-7395ec9d3507
 
 > **Your links just grew legs.**
 
